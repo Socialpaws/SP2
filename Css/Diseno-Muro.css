@@ -1,0 +1,370 @@
+body{
+	background: #3C3C3C;
+}
+
+#div-publicar{
+	background: #0D6D67;
+	width: 100%;
+}
+#div-publicar-Mas{
+    background: #ea3e3e;
+    width: 100%;
+}
+#div-publicar-exterior{
+	background: #0D6D67;
+	margin-top: 75px;
+	width: 100%;
+	padding: 5px;
+}
+#div-publicar-Mascota{
+    background: #ea3e3e;
+    margin-top: 25px;
+    width: 100%;
+    padding: 5px;
+}
+#Textarea-publicar{
+	max-width:100%;
+	min-width: 100%;
+	min-height: 70px;
+	max-height: 70px;
+	text-align: center;
+}
+#Textarea-comentar{
+    max-width:100%;
+    min-width: 100%;
+    min-height: 40px;
+    max-height: 40px;
+    text-align: center;
+}
+ #Div-Solicitudes{
+    margin-top: 75px;
+ }
+#Div-Comentar fieldset {
+    background: #8DC748;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    position: relative;
+}
+#Div-Comentar fieldset:before {
+    background-color: #8DC748;
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+}
+/*INPUT FILE*/
+.botonInputFileModificado {
+    background-color: #83B789;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModificado:hover {   
+    background-color: #fff;
+    color: #83B789;
+}
+ 
+.botonInputFileModificado .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModificado .boton {
+    text-align: center;
+}
+.botonInputFileModificad {
+    background-color: #795548;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModificad:hover {   
+    background-color: #fff;
+    color: #795548;
+}
+ 
+.botonInputFileModificad .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModificad .boton {
+    text-align: center;
+}
+
+input[type=file] {
+    height: 40px;
+    width: 100%;
+}
+
+/*INPUT FILE*/
+#Btn-Publicar{
+	background-color: #69B15B;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+    border: none;
+     font-weight: bold;
+}
+#Btn-Publicar:hover{
+	background-color: #fff;
+    color: #69B15B;
+}
+#Btn-Publicar-Mascota{
+    background-color: #cbbb9f;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+    border: none;
+     font-weight: bold;
+}
+#Btn-Publicar-Mascota:hover{
+    background-color: #fff;
+    color: #cbbb9f;
+}
+#ContornoMuro{
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px #000000;
+
+}
+.apartar{
+padding-left: 35px;
+padding-right: 15px;
+}
+#texto-correo{
+    font-size: 10px;
+    color: #4A4A4A;
+}
+.botonpublicar {
+    background-color: #2A5A1E;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+.botonpublicar:hover {   
+    background-color: #fff;
+    color: #83B789;
+}
+.botonpublicar .boton {
+    text-align: center;
+}
+#div-cargador{
+    width: 100%;
+    padding: 10px;
+}
+/*INPUT FILE*/
+.botonpublicar .inputImagenOculto1 {
+    position: absolute;
+    opacity: 0;
+}
+
+
+input[type=submit] {
+    height: 40px;
+    width: 100%;
+}
+
+/*INPUT FILE*/
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#resultadoBusqueda{
+    background: #fff;
+    width: 100%;
+    text-align: center;
+}
+#Div-Contenerdor-Resultados{
+    background: #F3F3F3;
+    padding: 1px;
+    color: #1C4C10;
+}
+#Div-Contenerdor-Resultados:hover{
+    background: #83B789;
+}
+#a-Contenerdor-Resultados{
+    text-decoration: none;
+}
+#div-solicitudes-exterior{
+    background:#d9534f;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-Notificaciones-exterior{
+    background:#d9534f;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-Mascotas-exterior{
+    background:#d9534f;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-solicitudes-exterior2{
+    background:#03A9F4;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-Notificaciones-exterior2{
+    background:#03A9F4;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-Mascotas-exterior2{
+    background:#03A9F4;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#div-solicitudes{
+    background:#DEDEDE;
+    width: 100%;
+    padding: 5px;
+}
+
+.cabecera-Amigos{
+    color: #fff;
+    background: #000c1b;
+    padding: 0.1px;
+}
+.tope{
+    padding-top: 75px;
+}
+.Info-friends{
+    font-size: 15px;
+    color:#fff;
+ }
+ .Img-tamano{
+    width: 80px;
+    height: 80px;
+ }
+@media all and (max-width: 600px) {
+   #div-solicitudes-exterior{
+    background:#d9534f;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    }
+    #div-Notificaciones-exterior{
+        background:#d9534f;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    #div-Mascotas-exterior{
+        background:#d9534f;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    #div-solicitudes-exterior2{
+        background:#03A9F4;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    #div-Notificaciones-exterior2{
+        background:#03A9F4;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+    #div-Mascotas-exterior2{
+        background:#03A9F4;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+    }
+     .Img-tamano{
+        width: 40px;
+        height: 40px;
+    }
+}
+.Comentario-hora{
+    font-size: 8px;
+    color:black;
+}
+.Comentario-Correo{
+    font-size: 10px;
+    color:black;
+}
+.btn-Come{
+    border: none;
+    background:#2A5A1E; 
+    color: #fff;
+}
+.btn-Come:hover{
+    border: none;
+    background:#fff; 
+    color: #2A5A1E;
+}
+.Div-Ver-Mascotas{
+    background: #D9534F;
+    width: 100%;
+    height: 50px;
+    margin-top:15px;
+    border:none;
+    font-size: 17px;
+    color: #fff;
+}
+.Div-Ver-Mascotas:hover{
+    background: #fff;
+    color:#D9534F;
+}
+.Div-Espacios{
+    margin-top:75px;
+}
+.img-Tamano-help{
+    width: 95%;
+}
+.btn-Help{
+    width: 200px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    background: #3F51B5;
+    font-size: 16px;
+}
+.btn-Help:hover{
+    color: #3F51B5;
+    background: #fff;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #009688;
+    color: white;
+}

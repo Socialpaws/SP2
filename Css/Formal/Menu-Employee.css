@@ -1,0 +1,370 @@
+body{
+	background: #F1F1F1;
+}
+.Margen-Arriba{
+	margin-top:75px;
+}
+.Btn-Opciones{
+	background: #555;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones:hover{
+	background: #fff;
+	color:#555;
+}
+.ContornoMuro{
+	width: 200px;
+    box-shadow: 0 4px 8px #000000;
+}
+.Contenedor-Form{
+	background: #FFF;
+	color:#1F1F1F;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 25px;
+}
+.Contenedor-Form2{
+	background: #284B72;
+	color:white;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 20px;
+	padding: 25px;
+	 box-shadow:0 1px 2px rgba(0, 0, 0, 0.22);
+}
+.Contenedor-Form3{
+	background: #284B72;
+	color:white;
+	height: 200px;
+	width: 300px;
+	margin-bottom: 20px;
+	padding: 25px;
+	 box-shadow:0 1px 2px rgba(0, 0, 0, 0.22);
+}
+.Contenedor-Cabecera{
+	background: #BD3434;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Date{
+	background: #6F5D8E;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Proveedor{
+	background: #607D8B;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Productos{
+	background: #2E6DA4;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Pet{
+	background: #8BC34A;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Reportes{
+	background: #795548;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Sucursal{
+	background: #BFA123;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+.Contenedor-Cabecera-Finanzas{
+	background: #009688;
+	color:#fff;
+	width: 100%;
+	padding: 5px;
+}
+
+.Margen-Lados-Form{
+	padding: 0 10px 0 10px;
+}
+.Btn-Opciones-Menu{
+	background: #BD3434;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu:hover{
+	background: #fff;
+	color:#BD3434;
+}
+.Btn-Opciones-Menu-Date{
+	background: #6F5D8E;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Date:hover{
+	background: #fff;
+	color:#6F5D8E;
+}
+
+.Btn-Opciones-Menu-Producto{
+	background: #2E6DA4;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Producto:hover{
+	background: #fff;
+	color:#2E6DA4;
+}
+.Btn-Opciones-Menu-Reportes{
+	background: #795548;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Reportes:hover{
+	background: #fff;
+	color:#795548;
+}
+
+.Btn-Opciones-Menu-Pet{
+	background: #8BC34A;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Pet:hover{
+	background: #fff;
+	color:#8BC34A;
+}
+.Btn-Opciones-Menu-Proveedor{
+	background:#607D8B;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Proveedor:hover{
+	background:#fff;
+	color:#607D8B;
+}
+.Btn-Opciones-Menu-Pet:hover{
+	background: #fff;
+	color:#8BC34A;
+}
+.Btn-Opciones-Menu-Sucursal{
+	background:#BFA123;
+	color:#fff;
+	border: none;
+	width: 200px;
+	height: 45px;
+}
+.Btn-Opciones-Menu-Sucursal:hover{
+	background: #fff;
+	color:#BFA123;
+}
+/*INPUT FILE*/
+.botonInputFileModificado {
+    background-color: #83B789;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModificado:hover {   
+    background-color: #fff;
+    color: #83B789;
+}
+ 
+.botonInputFileModificado .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModificado .boton {
+    text-align: center;
+}
+
+.botonInputFileModificad {
+    background-color: #795548;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModificad:hover {   
+    background-color: #fff;
+    color: #795548;
+}
+ 
+.botonInputFileModificad .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModificad .boton {
+    text-align: center;
+}
+
+input[type=file] {
+    height: 30px;
+    width: 100%;
+}
+
+
+/*INPUT FILE*/
+/*INPUT FILE*/
+.botonInputFileModifica {
+    background-color: #337AB7;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModifica:hover {   
+    background-color: #fff;
+    color: #337AB7;
+}
+ 
+.botonInputFileModifica .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModifica .boton {
+    text-align: center;
+}
+
+
+input[type=file] {
+    height: 30px;
+    width: 100%;
+}
+
+
+/*INPUT FILE*/
+.Text1{
+	width: 130px;
+}
+.Text2{
+	width: 80px;
+}
+.Text3{
+	width: 50px;
+}
+.Text4{
+	width: 90px;
+}
+.Textlbl{
+	background:#F9F9F9;
+	border:none;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Fecha{
+	 font-size: 2.5rem;
+}
+.Fecha-Dia{
+	margin-bottom: 20px;
+	 font-size: 4.5rem;
+	 text-align: center;
+	 outline: none;
+  color: #fff;
+
+}
+/*Number*/
+.input-number{
+	font-size: 4.5rem;
+  width: 80px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border-color: #284B72;
+   background: #284B72;
+}
+.input-number2{
+	font-size: 4.5rem;
+  width: 100px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border-color: #284B72;
+   background: #284B72;
+}
+.input-number2,
+.input-number,
+.input-number-decrement,
+.input-number-increment{
+  border: 0px solid #ccc;
+  height: 60px;
+  user-select: none;
+}
+.input-number-decrement,
+.input-number-increment{
+  display: inline-block;
+  width: 30px;
+  line-height: 38px;
+  background: #284B72;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+   color: #fff;
+}
+  &:active{
+    background: #ddd;
+}
+.input-number-decrement{
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  border-color: #284B72;
+}
+.input-number-increment{
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  border-color: #284B72;
+}
+.flo{
+	float: left;
+}
+.flo2{
+	float: right;
+}
+.Text-Mes{
+	border:#284B72;
+	background:#284B72;
+	color:#fff;
+	font-size: 18px;
+	width: 100px;
+	text-align: center;
+}
+.textareatama{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}

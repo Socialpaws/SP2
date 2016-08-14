@@ -1,0 +1,25 @@
+*{
+    font-family:inherit;
+}
+.derecha{
+	float: right;
+}
+.center {
+    position: relative;
+    left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+.Textb{
+	width: 100%;
+}
+.BtnIniciar{
+	border: none;
+	padding: 10px;
+	color: #fff;
+	background-color: #276894;
+}
+.BtnIniciar:hover{
+	background-color: #063250;
+}

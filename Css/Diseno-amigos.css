@@ -1,0 +1,6 @@
+table {  width: 100%;}
+td, th { border: 1px solid transparent; height: 30px;padding: 2px; }
+th { background: #171717; font-weight: bold;color:#fff; }
+td { background: #3a669c ;}
+tr:nth-child(even) td { background: #5480b7; }  
+tr:nth-child(odd) td { background: #3a669c; } 

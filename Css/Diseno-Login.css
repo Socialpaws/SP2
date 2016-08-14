@@ -1,0 +1,269 @@
+#Header001{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 45em;
+	background-image: url("../Imagenes/FondoInicio001.jpg");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+#Header002{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 45em;
+	background-image: url("../Imagenes/FondoInicio002.jpg");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}#Header{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 45em;
+	background-image: url("../Imagenes/FondoInicio1.jpg");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+#Header2{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 50em;
+	background-image: url("../Imagenes/FondoInicio2.jpg");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+#Header3{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 45em;
+    background: #0C5571;
+	background-image: url("../Imagenes/FondoInicio8.png");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+#Div-Iniciar-Sesion{
+	width: 100%;
+	background-size: auto, cover;
+    height: 100vh;
+    min-height: 50em;
+    background: #88C56F;
+    background-image: url("../Imagenes/FondoInicio7.png");
+	background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+}
+
+
+#Titulo-Home{
+	font-size: 3.25em;
+	font-weight: bold;
+	color:#fff;
+	position: relative;
+    left: 0;
+    text-align: center;
+    padding-top: 150px;
+}
+#Titulo-SM{
+	font-size: 3.25em;
+	font-weight: bold;
+	color:#fff;
+	position: relative;
+    left: 0;
+    text-align: center;
+    padding-top: 75px;
+}
+#Subtitulo-Home{
+	color: #B4DFFF;
+	font-weight: bold;	
+	font-size: 1.5em;
+    line-height: 1.35em;
+    position: relative;
+    left: 0;
+    text-align: center;
+
+}
+#Sub-titulo-Home{
+	color: #54B7FF;
+	font-weight: bold;	
+	font-size: 1.8em;
+    line-height: 1.35em;
+    position: relative;
+    left: 0;
+    text-align: center;
+
+}
+#Sub-titulo-DP{
+	color: #312E2C;
+	font-weight: bold;	
+	font-size: 1.8em;
+    line-height: 1.35em;
+    position: relative;
+    left: 0;
+    text-align: center;
+
+}
+#Subtitulo-IN{
+	color: #173A09;
+	font-weight: bold;	
+	font-size: 1.5em;
+    line-height: 1.35em;
+    position: relative;
+    left: 0;
+    text-align: center;
+
+}
+#Imagenes-Logo{
+	 position: relative;
+    left: 0;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+}
+#Img-SM1{
+	width: 35%;
+}
+#Img-SM2{
+	width: 30%;
+}
+#Img-SM3{
+	width: 50%;
+}
+@media all and (max-width: 991px) {
+	#Imagenes-Logo{
+	    padding-top: 10px;
+	    width: 20%;
+	}
+	#Img-SM1{
+		width: 15%;
+	}
+	#Img-SM2{
+		width: 15%;
+	}
+	#Img-SM3{
+		width: 15%;
+	}
+	#Titulo-SM{
+		font-size: 3em;
+	    padding-top: 5px;
+	}
+	#Div-Iniciar-Sesion{
+    min-height: 75em;
+	}
+	#Header{
+    min-height: 60em;
+	}
+	#Header2{
+    min-height: 55em;
+	}
+	#Header3{
+    min-height: 55em;
+	}
+}
+
+@media all and (max-width: 600px) {
+	#Titulo-Home{
+		font-size: 3.25em;
+		font-weight: bold;
+		color:#fff;
+		position: relative;
+	    left: 0;
+	    text-align: center;
+	    padding-top: 1px;
+	}
+	#Imagenes-Logo{
+	    padding-top: 10px;
+	    width: 60%;
+	}
+	#Img-SM1{
+		width: 22%;
+	}
+	#Img-SM2{
+		width: 22%;
+	}
+	#Img-SM3{
+		width: 22%;
+	}
+	#Titulo-SM{
+		font-size: 3-25em;
+	    padding-top: 15px;
+	}
+	#Div-Iniciar-Sesion{
+    min-height: 70em;
+	}
+	#Header{
+    min-height: 60em;
+	}
+	#Header2{
+    min-height: 60em;
+	}
+	#Header3{
+    min-height: 50em;
+	}
+}
+#BtnIniciarSesion{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+#BtnMS{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+#BtnMS2{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+#BtnMS3{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+#BtnDP{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}
+#BtnHM{
+	color:#fff;
+	text-decoration: none;
+	font-size: 35px;
+}

@@ -1,0 +1,127 @@
+body{
+	background: #3C3C3C;
+}
+
+.apartar{
+	padding-left: 35px;
+	padding-right: 15px;
+	margin-left: 35px;
+	margin-right: 15px;
+	padding-top: 75px;
+}
+
+#Div-Cambiarfoto-Exterior{
+    background: #0D6D67;
+    margin-top: 75px;
+    padding: 5px;
+    color:#fff;
+}
+#Div-Cambiarinfo-Exterior{
+    background: #0D6D67;
+    margin-top: 75px;
+    padding: 5px;
+}
+#Div-Cambiarinfo-Exterior h3{
+    color: #fff;
+}
+/*INPUT FILE*/
+.botonInputFileModificado {
+    background-color: #83B789;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+
+}
+ 
+.botonInputFileModificado:hover {   
+    background-color: #fff;
+    color: #83B789;
+}
+ 
+.botonInputFileModificado .inputImagenOculto {
+    position: absolute;
+    opacity: 0;
+}
+ 
+.botonInputFileModificado .boton {
+    text-align: center;
+}
+
+input[type=file] {
+    height: 40px;
+    width: 100%;
+}
+
+/*INPUT FILE*/
+#Btn-CambiarFoto{
+	background-color: #69B15B;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 10.5px;
+    border: none;
+     font-weight: bold;
+}
+@media all and (max-width: 600px) {
+   #Btn-CambiarFoto{
+    width: 175px;
+} 
+}
+#Btn-CambiarFoto:hover{
+	background-color: #fff;
+    color: #69B15B;
+}
+#Div-Comentar fieldset {
+    background:#021B1A;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    position: relative;
+}
+#Div-Comentar fieldset:before {
+    background-color: #021B1A;
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+}
+/*Botones*/
+.Btn-Cambiar{
+border:none;
+border-radius: 0 0 5px 5px;
+width: 100%;
+height: 100px;
+font-size: 35px;
+}
+#Btn-Cambiar-Foto{
+    background-color: #245B7B;
+    color: #fff;
+}
+#Btn-Cambiar-Foto:hover{
+    background-color: #fff;
+    color: #245B7B;
+}
+#Btn-Cambiar-Info{
+    background-color:#030715;
+    color: #fff;
+}
+#Btn-Cambiar-Info:hover{
+    background-color: #fff ;
+    color: #030715;
+}
+
+
+
+/*Botones*/
+
+.White{
+    color: #fff;
+}

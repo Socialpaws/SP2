@@ -1,0 +1,130 @@
+body{
+	background: #3C3C3C;
+}
+
+.apartar{
+	padding-left: 35px;
+	padding-right: 15px;
+	margin-left: 35px;
+	margin-right: 15px;
+	padding-top: 75px;
+}
+
+#Div-Cambiarfoto-Exterior{
+    background: #0D6D67;
+    margin-top: 75px;
+    padding: 5px;
+}
+.Div-Cambiarfoto-Exterior{
+    background: #0D6D67;
+    margin-top: 75px;
+    padding: 5px;
+}
+.NewMen{
+	background: #171717;
+	border:none;
+	width: 100%;
+	height: 55px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.NewMen:hover{
+	background: #fff;
+	color: #171717;
+}
+.Men{
+	background: #84BED0;
+	border:none;
+	width: 100%;
+	height: 55px;
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.Men:hover{
+	background: #fff;
+	color:#84BED0;
+}
+
+
+a:link{
+	text-decoration: none;
+}
+.btn-Eliminar{
+	padding: 5px;
+	background: #B11010;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-Eliminar:hover{
+	background: #fff;
+	color: #B11010;
+}
+.btn-Mostrar{
+	padding: 5px;
+	background: #197DB9;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-Mostrar:hover{
+	background: #fff;
+	color: #197DB9;
+}
+.Cabecera-mensajes{
+	background:#5A8C6E;
+	border:none;
+	width: 100%;
+	height: 55px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+}
+
+#Div-Comentar fieldset {
+    background:#1B2B35;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    position: relative;
+}
+#Div-Comentar fieldset:before {
+    background-color: #1B2B35;
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+}
+.Btn-Enviar{
+	background-color: #69B15B;
+    color: #fff;
+    width: 240px;
+    height: 40px;
+    padding: 10.5px;
+    border: none;
+     font-weight: bold;
+}
+@media all and (max-width: 600px) {
+   .Btn-Enviar{
+    width: 175px;
+}
+.Cabecera-mensajes{
+	height: 110px;
+} 
+}
+.Btn-Enviar:hover{
+	background-color: #fff;
+    color: #69B15B;
+}
+.Div-Interior-Cambiarfoto{
+	background: #F1F1F1;
+}

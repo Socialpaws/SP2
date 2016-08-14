@@ -1,0 +1,38 @@
+ #Div-Solicitudes{
+ 	 background: #0D6D67;
+    margin-top: 75px;
+    padding: 5px;
+ }
+.btn-Aceptar{
+	padding: 5px;
+	background: #98CC68;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-Aceptar:hover{
+	background: #fff;
+	color: #98CC68;
+}
+.btn-X{
+	padding: 5px;
+	background: #D06969;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-X:hover{
+	background: #fff;
+	color: #D06969;
+}
+a:link{
+	text-decoration: none;
+}
+.btn-Adop{
+	padding: 5px;
+	background: #D06969;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-Adop:hover{
+	background: #fff;
+	color: #D06969;
+}

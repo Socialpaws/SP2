@@ -1,0 +1,78 @@
+.div-contorno{
+	margin-top: 75px;
+	background: #fff;
+	width: 100%;
+	padding: 7px;
+}
+.div-info-Usuario{
+	float:left;
+	width: 99%;
+	background: #8BC34A;
+	height: 350px;
+	margin: 0 1px 0 0;
+}
+.div-info-Mascota{
+	float: left;
+	width: 99%;
+	background: #F9693C;
+	height: 350px;
+}
+.Img-taman-U{
+	width: 100px;
+	float: left;
+}
+.Img-taman-M{
+	width: 100px;
+	float: left;;
+}
+.Margen{
+	margin: 10px;
+}
+.Nombre-U{
+	float: left;
+	font-size: 25px;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+.Apellido-U{
+	float: left;
+	font-size: 25px;
+	margin-top: 40px;
+}
+.Nombre-M{
+	float: left;
+	font-size: 25px;
+	margin-top: 40px;
+}
+@media all and (max-width: 991px) {
+	.div-info-Usuario{
+		float:left;
+		width: 100%;
+	}
+	.div-info-Mascota{
+		width: 100%;
+	}
+	.Nombre-U{
+		font-size: 18px;
+	}
+	.Apellido-U{
+		font-size: 18px;
+	}
+	.Nombre-M{
+		font-size: 18px;
+	}
+}
+.Margen-letra{
+	margin-left: 10px;
+}
+.oscura{
+	font-weight: bold;
+	font-size: 14px;
+}
+.Btn-Date{
+	margin:10px;
+	padding: 10px;
+	border: none;
+	background: #795548;
+	color:#fff;
+}

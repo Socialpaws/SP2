@@ -1,0 +1,63 @@
+.Div-Foto-Mascota{
+background: #8BC34A;
+color: #fff;
+border-radius:10px;
+}
+#con{
+    padding-top: 65px;
+
+}
+.Con2{
+    padding-top: 35px;
+
+}
+.Con3{
+    padding-top: 15px;
+
+}
+.Rescate{
+	background: #9E9E9E;
+	padding: 5px;
+	color:#fff;
+	border-radius: 10px 0px 0px 10px; 
+}
+.Raza{
+	background: #EA3E3E;
+	padding: 5px;
+	color:#fff;
+}
+.Sucursal{
+	background:#795548;
+	padding: 5px;
+	color:#fff;
+}
+.Estado{
+	background: #009688;
+	padding: 5px;
+	color:#fff;
+	border-radius:  0px 10px 10px 0px; 
+}
+.X{
+    float:right;
+    padding: 5px;
+    background: #D06969;
+    border-radius: 5px;
+    color: #fff;
+}
+.X:hover{
+    background: #fff;
+    color: #D06969;
+}
+a:link{
+    text-decoration: none;
+}
+.btn-Adop{
+	padding: 5px;
+	background: #D06969;
+	border-radius: 5px;
+	color: #fff;
+}
+.btn-Adop:hover{
+	background: #fff;
+	color: #D06969;
+}

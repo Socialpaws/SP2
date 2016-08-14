@@ -1,0 +1,240 @@
+
+.Div-Espacio-Apartos{
+	background: #333;
+	width: 250px;
+	height: 100vh;
+    min-height: 45em;
+	padding: 50px 0px 0px 0px;
+}
+.Titulo-Aside{
+  color: #E2E2E2;
+  font-weight: 1000;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+  font-size: 20px;
+}
+.Titulo-Aside2{
+  color: #E2E2E2;
+  font-weight: 1000;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+  font-size: 20px;
+}
+.Info-negrita{
+	font-weight: bold;
+	font-size: 16px;
+}
+.Div-Espacio-Titulo{
+	background: #505050;
+	width: 100%;
+	padding: 15px 20px 10px 20px;
+	float: left;
+}
+.Div-Espacio-Producto{
+	padding: 10px 20px 0px 20px;
+}
+.Img-tamano1{
+ width: 40px;
+ height: 40px;
+}
+.Img-taman2{
+ width: 350px;
+ height: 350px;
+}
+.Img-taman4{
+ width: 70px;
+ height: 70px;
+ float: left;
+}
+.Info-Lbl{
+	color: #fff;
+}
+.Info-Detalles{
+	font-size: 16px;
+	margin-left: 10px;
+}
+.Info-Detalles2{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.Div-Nav-Compras{
+	margin-top: 75px;
+	background: #333;
+	width: 100%;
+	height: 75px;
+	border-radius:5px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+	padding: 20px;
+}
+.Div-Box-Tienda{
+	width: 55px;
+	height: 55px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background: #505050;
+	border-radius:5px;
+	float: right;
+}
+.Div-Box-Check{
+	width: 55px;
+	height: 55px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background: #8BC34A;
+	border-radius:5px;
+	float: right;
+	padding: 9px;
+	color: #fff;
+	font-size: 35px;
+}
+.Div-Box-Check:hover{
+	background: #fff;
+	color: #8BC34A;
+}
+@media all and (max-width: 575px) {
+	.Titulo-Aside{
+	  display: none;
+	}
+	.Div-Box-Tienda{
+		width: 36px;
+		height: 36px;
+	}
+	.Div-Box-Check{
+	width: 36px;
+		height: 36px;
+	padding: 8px;
+	font-size: 20px;
+	}
+}
+input[type="checkbox"]{
+margin: 10px;
+}
+
+.Btn-Detalles{
+	margin-top: 10px;
+	padding: 10px;
+	background: #795548;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 18px;
+}.Btn-Detalles:hover{
+	background: #fff;
+	color: #795548;
+}
+
+/**MODAL**/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #009688;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+.Titulo-Modal{
+	font-size: 25px;
+}
+
+/**MODAL**/
+
+
+.Div-Detalles-Productos{
+	margin-top: 10px;
+	width: 100%;
+	background: #E0E0E0;
+	padding: 10px;
+}
+
+.Div-Espacio{
+	margin-top: 65px;
+}
+.Cerrar{
+	font-size: 25px;
+	color: #333;
+	float: right;
+	font-weight: 1000;
+  	text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+.Cerrar:hover{
+	color: #fff;
+}
+a:link{
+	text-decoration: none;
+}
+.Btn-Comprar{
+	border: none;
+	background: #00A4D9;
+	color: #fff;
+	padding: 10px 15px 10px 15px;
+}
+.Btn-Comprar:hover{
+	background: #007BA2;
+	color: #fff;
+}
+.Div-Total{
+	background:  #9E9E9E;
+	width: 150px;
+	padding: 10px;
+	float: right;
+}
+.esp{
+	margin-top: 75px;
+}
+.Img-ta{
+	 width: 75%;
+      height: 75%;
+}

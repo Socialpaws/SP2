@@ -1,0 +1,111 @@
+#Header{
+	width: 100%;
+	background-size: auto, cover;
+    height:40vh;
+    min-height: 31em;
+    color: #4E4E4E;
+    background: #ABBABB;
+    background-image: url("../Imagenes/FondoInicio10.gif");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-position:center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	
+}
+@media all and (max-width: 991px) {
+    #Header{
+    height:45vh;
+    min-height: 36em;
+    }
+    #Foto-div-perfil{
+    width: 90%;
+    }
+}
+#Foto-div-perfil{
+	background: rgba(255, 255, 255, 0.5);
+
+	padding: 15px;
+	border-radius: 15px;
+}
+#Foto-div-perfil-exterior{
+	padding-top:80px;
+}
+
+hr {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+    width: 35%;
+}
+#con{
+    padding-top: 25px;
+}
+#div-info-cumple{
+    background: #806060;
+    padding: 5px;
+}
+#div-info-correo{
+    background: #2E2836;
+    padding: 5px;
+}
+#div-info-telefono{
+    background: #A3B72F;
+    padding: 5px;
+}
+.texto-info{
+    color: #fff;
+}
+#ContornoMuro{
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px #000000;
+
+}
+.X{
+    float:right;
+    padding: 5px;
+    background: #D06969;
+    border-radius: 5px;
+    color: #fff;
+}
+.X:hover{
+    background: #fff;
+    color: #D06969;
+}
+a:link{
+    text-decoration: none;
+}
+.btn-Pending{
+    border: none;
+    border-radius: 5px;
+    background:#795548;
+    color:#fff;
+    padding: 7px;
+}
+.btn-Pending:hover{
+    background:#fff;
+    color:#795548;
+}
+.btn-Pendin{
+    border: none;
+    border-radius: 5px;
+    background:#E44242;
+    color:#fff;
+    padding: 7px;
+}
+.btn-Pendin:hover{
+    background:#fff;
+    color:#E44242;
+}
+.Tamano-Img-max{
+    max-width: 100px;
+    max-height: 110px;
+}
